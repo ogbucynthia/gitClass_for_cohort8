@@ -2,7 +2,7 @@
 //functions without parameters
 function greetings() {
     console.log("HELLO WORLD")
-}
+
 
 // greetings()
 

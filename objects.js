@@ -1,13 +1,13 @@
 const obj = {
-    name: 'OGBU UZOMA ESTHER',
-    gender: 'non-binary',
+    name: `OGBU UZOMA ESTER`,
+    gender:`non-binary`,
     age: 30,
-    complexion: 'dark'
+    complextion: `dark`,
 };
 
 //adding props to the object
 let phone = {
-    brand: "Samsung",
+    brand: "samsung",
     model: "Galaxy S22",
     price: 350000
 };
@@ -17,26 +17,32 @@ console.log(phone);
 
 let student = {
     name: "Godwin",
-    regNo: "C8/001",
+    regNo : "C8/001",
     course: "JavaScript",
     year: 2024,
-    friends : ["John", "Jane", "Doe"]
+    friends: ["John", "Jane", "Doe"]
 }
 console.log(student);
-student.gender = "Male";
+student.gender = "male"
 console.log(student);
-student.course = "Node.js";
+student.course = "Node.js"
 console.log(student);
-delete student.year;
+delete student.year
 console.log(student);
 
 let employee = {
-    name: "Tunde Balogun",
+    name: "tunde Balogun",
     role: "Frontend Developer",
     salary: 450000,
-    city: "Lagos"
+    city: "Lagos",
 };
 
 let hisName = employee.name;
 let hisRole = employee.role;
-let hisSalary = employe…
+let hisSalary = employee.salary;
+let hisCity = employee.city;
+
+const {name, role, salary, city} = employee;
+console.log(employee);
+
+    
