@@ -45,4 +45,21 @@ let hisCity = employee.city;
 const {name, role, salary, city} = employee;
 console.log(employee);
 
-    
+const { name:useName, role:useRole, salary:useSalary, city:useCity } = employee;
+
+let DNA = {
+    gender : "XY",
+    complextion : "Dark"
+}
+
+let offSpring = {
+    ...DNA,
+    name : "OGBU UZOMA ESTHER",
+    age : 30
+}    
+console.log(offSpring);
+
+console.log(Object.keys(offSpring));
+console.log(Object.values(offSpring))
+console.log(Object.entries(offSpring))
+
