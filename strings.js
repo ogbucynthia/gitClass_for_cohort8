@@ -26,3 +26,22 @@ console.log(extractExample.slice(3));
 console.log(extractExample.slice(-3)); // "her"
 console.log(extractExample.substring(0, 3)); // "Est"
 console.log(extractExample.substring(-3)); // "Esther" (negative values are treated as 0)
+
+//replace and the replaceAll
+const stringText = "Uzoma is a fine girl , Uzoma is so smart and cute and Uzoma is a software developer"
+console.log(stringText.replace("Uzoma", "She")); 
+console.log(stringText.replaceAll("Uzoma", "She"))
+
+let splittedText = stringText.split(" , ")
+console.log(splittedText);
+console.log(splittedText[1].replaceAll("Uzoma", "She")); 
+
+//reverse
+let palindrome = "madam"
+let reversed = palindrome.split("").reverse().join("")
+console.log(reversed)
+
+function wordCheck(word){
+    return word === word.split("").reverse().join("").toUpperCase() ?  "yes it is a palindrome" : "no it is not a palindrome"
+}
+console.log(wordCheck("BOB")) 
