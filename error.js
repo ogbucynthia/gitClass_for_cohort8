@@ -43,5 +43,5 @@ function registerStudent(name, age){
 
 //registerStudent("Bola Okafor", 22); // Student registered: Bola Okafor, Age: 22
 //registerStudent("", 22);
-registerStudent("kemi", 12)
+//registerStudent("kemi", 12)
 //trim()=== "")|| name
