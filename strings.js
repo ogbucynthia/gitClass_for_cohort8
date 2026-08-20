@@ -19,3 +19,10 @@ console.log(fileName.startsWith("repSort")); // true
 console.log(fileName.startsWith("draft")); // false
 console.log(fileName.endsWith(".pdf")); // true
 console.log(fileName.endsWith(".doc")); // falses
+
+const extractExample = "Esther"
+console.log(extractExample.slice(0, 3)); // "Est"
+console.log(extractExample.slice(3));
+console.log(extractExample.slice(-3)); // "her"
+console.log(extractExample.substring(0, 3)); // "Est"
+console.log(extractExample.substring(-3)); // "Esther" (negative values are treated as 0)
